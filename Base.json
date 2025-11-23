@@ -1,0 +1,37 @@
+ {"dialogues":[
+  {
+	"idPregunta": "Q1",
+	"pregunta": "Tu compañero olvidó hacer su parte del proyecto, ¿qué haces?",
+	"requierePreguntaAnterior": false,
+	"opciones": [
+	  {
+		"textoRespuesta": "Lo ayudas a terminar sin reprocharle.",
+		"moral": 2,
+		"relationship": 3
+	  },
+	  {
+		"textoRespuesta": "Lo confrontas duramente frente al grupo.",
+		"moral": -2,
+		"relationship": -3
+	  }
+	]
+  },
+  {
+	"idPregunta": "Q2",
+	"pregunta": "",
+	"requierePreguntaAnterior": true,
+	"opciones": [
+	  {
+		"textoRespuesta": "Aceptas continuar con la decisión previa.",
+		"moral": 1,
+		"relationship": 2
+	  },
+	  {
+		"textoRespuesta": "Rechazas y cambias de rumbo.",
+		"moral": -1,
+		"relationship": -2
+	  }
+	]
+  }
+]
+}
